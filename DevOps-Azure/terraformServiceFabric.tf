@@ -225,7 +225,7 @@ resource "azurerm_service_fabric_cluster" "test" {
 
 # Vm Scale Set
 resource "azurerm_virtual_machine_scale_set" "test" {
-  name                = "trevor-sf-terraform"
+  name                = "gustavo-sf-terraform"
   location            = "${azurerm_resource_group.test.location}"
   resource_group_name = "${azurerm_resource_group.test.name}"
   upgrade_policy_mode = "Automatic"
