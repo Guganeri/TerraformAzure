@@ -31,7 +31,7 @@ variable "clustersize" {
 
 # Resource Group
 resource "azurerm_resource_group" "test" {
-  name     = "Testando TerraForm ServiceFabric"
+  name     = "gustavo"
   location = "Central US"
 
   tags {
