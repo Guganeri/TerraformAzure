@@ -10,8 +10,12 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "Service Fabric" {
-  name     = "production"
-  location = "West US"
+  name     = "Testando Terraform" #Grupo de Recursos
+  location = "eastus"             #Localização das Maquinas 
+  
+    tags{
+      enviroment = "Terraform Demo"
+    }
 }
 
 # Create a virtual network within the resource group
