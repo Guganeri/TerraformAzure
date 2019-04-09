@@ -10,7 +10,7 @@ variable "vmusername" {
 }
 variable "cluster_name" {
   type    = "string"
-  default = "sftrevor"
+  default = "SF_CDTLAB-Gustavo"
 }
 resource "random_string" "vmname" {
   length = 6
