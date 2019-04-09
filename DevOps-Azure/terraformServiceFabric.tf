@@ -1,11 +1,10 @@
 # Configure the Azure Provider
 provider "azurerm" {
-  # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
-  version = "=1.24.0"
+  # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider  
   subscription_id  = ""
   tenant_id        = ""
   client_id        = ""  
-  client_secret    = ""
+  client_secret    = "" 
   
 }
 
